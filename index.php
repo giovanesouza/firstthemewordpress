@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- ICON DO SITE -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 
@@ -74,7 +77,6 @@
             <div style="max-width: 700px;margin: 0 auto;overflow: hidden;" class="slider-container">
 
                 <img src="images/amazon.png" />
-
                 <img src="images/costco.png" />
                 <img src="images/dominos.png" />
                 <img src="images/uber.png" />
@@ -92,7 +94,7 @@
 
 
 
-
+    <!-- SEÇÃO DIFERENCIAIS -->
     <section class="diferenciais">
 
         <div class="center">
@@ -127,16 +129,109 @@
 
 
 
+    <!-- SEÇÃO SOBRE O TIME -->
+    <section class="sobre-time">
+        <div class="center">
+            <div class="w50 time-descricao-2">
+                <h2>Um time experiente,<br />comunicador e coeso.</h2>
+                <p>A Product Runt acredita que marcas fortes são construídas a partir de transformações importantes e
+                    positivas na vida dos consumidores. Exatamente como uma conversa que ganha forma, a ideia vira
+                    flâmula.
+                    <br /><br />
+                    Comunicar bem, de forma coerente e clara não é algo fácil e estamos aqui para ajudar você e seu
+                    time. Você escolhe, remoto ou presencial, para seu cliente ou seu público interno, você determina
+                    como vamos te ajudar.
+                </p>
+            </div><!--w50-->
+            <div class="w50 img-time">
+                <img src="images/time.png" />
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+
+
+    <!-- SEÇÃO DEPOIMENTOS -->
+    <section class="depoimentos">
+        <div class="center">
+
+            <h2>Depoimentos</h2>
+
+            <div class="depoimentos-box">
+
+                <div class="depoimento-single">
+                    <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo exercitationem molestias
+                        eligendi eum corrupti doloremque voluptate eius veniam magnam. Impedit sapiente quasi a nihil
+                        eligendi at voluptatibus, sed mollitia vitae." </p>
+                    <p>Josef Wonder</p>
+                    <img src="images/autor.png" />
+                </div>
+
+                <div class="depoimento-single">
+                    <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo exercitationem molestias
+                        eligendi eum corrupti doloremque voluptate eius veniam magnam. Impedit sapiente quasi a nihil
+                        eligendi at voluptatibus, sed mollitia vitae."</p>
+                    <p>Josef Wonder</p>
+                    <img src="images/autor.png" />
+                </div>
+
+                <div class="depoimento-single">
+                    <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo exercitationem molestias
+                        eligendi eum corrupti doloremque voluptate eius veniam magnam. Impedit sapiente quasi a nihil
+                        eligendi at voluptatibus, sed mollitia vitae."</p>
+                    <p>Josef Wonder</p>
+                    <img src="images/autor.png" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER / SEÇÃO METODOLOGIA -->
+    <footer>
+        <section class="metodologia">
+            <div class="center">
+                <h2>Conheça nossa Metodologia</h2>
+                <p>O que acha de fazermos o que mais gostamos de fazer? Conversar!<br />Entre em contato por e-mail ou
+                    telefone.</p>
+                <a href="/contato">Entrar Contato</a>
+            </div>
+        </section>
+        <div class="center">
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">Contato</a>
+                <a href="">FAQ</a>
+            </div>
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">Contato</a>
+                <a href="">FAQ</a>
+            </div>
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">Contato</a>
+                <a href="">FAQ</a>
+            </div>
+            <div style="width: 40%;text-align: right;" class="col-footer">
+                <img src="images/logo-footer.png" />
+            </div>
+        </div>
+    </footer>
 
 
 
 
-    <!-- BIBLIOTECA PARA O SLIDER -->
+    <!-- JQUERY -->
     <script src="js/jquery.js"></script>
+    
+     <!-- BIBLIOTECA PARA O SLIDER -->
     <script src="js/slick.min.js"></script>
 
     <script>
-        // Ativa o slider slick
+        // Ativa o slider slick - SEÇÃO clientes-slider
         $('section.clientes-slider .slider-container').slick({
             dots: true,
             arrows: false,
@@ -160,6 +255,8 @@
                 ]
         });
 
+
+        // Ativa o slider slick - SEÇÃO depoimentos
         $('section.depoimentos .depoimentos-box').slick({
             dots: true,
             arrows: false,
