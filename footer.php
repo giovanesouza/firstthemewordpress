@@ -64,8 +64,7 @@ $title = get_the_title(); // Pega o título da página e ARMAZENA NA VARIÁVEL $
 <script src="<?php echo get_theme_root_uri(); ?>/temaOneWordPress/js/slick.min.js"></script>
 
 <!-- GOOGLE API KEY - MAPA -->
-
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxoz0zQSZ-djvWGOBUsHkBUoT_qH4"></script>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4'></script>
 
 <script src="<?php echo get_theme_root_uri(); ?>/temaOneWordPress/js/map.js"></script>
 

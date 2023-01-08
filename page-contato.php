@@ -9,6 +9,7 @@
 </div>
 </section>
 
+
 <!-- SEÇÃO DE CONTATO -->
 <section class="contato">
 
@@ -36,8 +37,10 @@
         <!-- ÁREA DO FORMULÁRIO -->
         <div class="w50 contato-form">
 
-            <form>
+            <!-- FORMULÁRIO DINÂMICO -->
+            <?php the_content(); ?>
 
+            <!-- <form>
                 <input type="text" placeholder="Nome" />
                 <input type="text" placeholder="E-mail" />
                 <input type="text" placeholder="Telefone" />
@@ -50,8 +53,7 @@
                 <textarea placeholder="Mensagem"></textarea>
 
                 <input type="submit" value="Enviar" />
-
-            </form>
+            </form> -->
 
         </div>
 
